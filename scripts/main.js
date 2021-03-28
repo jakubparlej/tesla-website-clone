@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     sections[currentSectionIndex].scrollIntoView({
         behavior: 'smooth',
         block: 'start',
+
     })
 
     document.addEventListener('wheel', (event) => {
