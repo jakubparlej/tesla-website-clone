@@ -45,3 +45,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 })
+
+const menuBtn = document.querySelector('.menu-btn');
+const aside = document.querySelector('.aside');
+const asideMenu = document.querySelector('.aside__menu');
+
+menuBtn.addEventListener('click', () => {
+    aside.classList.toggle('aside--active');
+    asideMenu.classList.toggle('aside__menu--active');
+});

@@ -11,9 +11,7 @@
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
-html {
-    overflow: hidden;
-}
+
 
 a {
     color: black;
@@ -29,5 +27,12 @@ $breakpoints: (tablet: (min-width: 768px),
 
     @media #{$size} {
         @content
+    }
+}
+
+html {
+
+    @include media(desktop) {
+        overflow: hidden;
     }
 }
