@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const rootElement = document.querySelector('#root');
     const sections = document.querySelectorAll('section');
+    const footer = document.querySelector('footer');
     let currentSectionIndex = 0;
     let isThrottled = false;
 
@@ -36,7 +37,11 @@ document.addEventListener('DOMContentLoaded', () => {
             behavior: 'smooth',
             block: 'start',
         })
+
+        if (currentSectionIndex === sections.length - 1) {
+            footer.classList.add('show');
+        } else {
+            footer.classList.remove('show');
+        }
     })
-
-
 })
