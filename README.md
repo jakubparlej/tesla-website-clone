@@ -12,6 +12,10 @@
 - [Technologies](#technologies)
 - [Setup](#setup)
 
+## General info
+
+This projects is created with HTML, CSS & JS. Main goal of this projects was to practice my CSS and JS skills. 
+
 ## Technologies
 
 Project is created with:
@@ -22,9 +26,10 @@ Project is created with:
 
 ## Features
 
-- Navigation bar with netflix logo and user icon
-- Banner with random trending movie background, name and description
-- Movies categories with thumbnail sliders
+- Navigation bar with Tesla logo and site menu
+- Right sidebar menu
+- Sections with cars models
+- Smooth section scroll
 
 ## Acknowledgements
 
