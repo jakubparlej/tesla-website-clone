@@ -1,4 +1,4 @@
-# Netflix Website Clone using React
+# Tesla Website Clone using React
 
 ![Screenshot](./images/tesla-website-clone.jpg)
 
